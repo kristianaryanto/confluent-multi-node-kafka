@@ -75,7 +75,7 @@ For example:
 
 Deploy the Kafka cluster to Docker Swarm using the following command:
 ```bash
-docker stack deploy -c docker-compose.yml kafka-cluster
+docker stack deploy -c docker-compose-kafka_v2.yml kafka-cluster-v2
 ```
 
 ---
